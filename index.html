@@ -23,20 +23,168 @@
   </head>
   <body>
     <header>
-      <nav>
-        <img src="./images/logo.svg" alt="logo" width="130" />
-        <ul>
-          <li><a href="#" class="logo__link">Product</a></li>
-          <li><a href="#" class="logo__link">Features</a></li>
-          <li><a href="#" class="logo__link">Pricing</a></li>
-          <li><a href="#" class="logo__link">Case studies</a></li>
-          <li><a href="#" class="logo__link">Resources</a></li>
-        </ul>
+      <nav class="nav">
+        <div class="container container--header">
+          <a href="./index.html">
+            <img src="./images/logo.svg" alt="logo" width="130" />
+          </a>
+          <ul class="nav-list">
+            <li><a href="#" class="nav__link">Product</a></li>
+            <li><a href="#" class="nav__link">Features</a></li>
+            <li><a href="#" class="nav__link">Pricing</a></li>
+            <li><a href="#" class="nav__link">Case studies</a></li>
+            <li><a href="#" class="nav__link">Resources</a></li>
+          </ul>
+          <div class="btns">
+            <a href="#" class="button button--nav">Log in</a>
+            <a href="#" class="button button--nav button--accent">Try it free</a>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
       <section class="hero">
-        <p class="f1">body</p>
+        <div class="container container--hero">
+          <div class="hero__wrapper">
+            <h1 class="hero__title">Accelerate localization from code to delivery</h1>
+            <p class="hero_descr">
+              A localization and translation management platform for agile teams. Embrace
+              automation, workflow transparency, and fast project delivery.
+            </p>
+            <div class="btns btns--hero">
+              <a href="#" class="button button--accent button--wide">Try it free</a>
+              <a href="#" class="button button--wide">Book a demo</a>
+            </div>
+            <p class="hero__info">Try all features for 14 days · No credit card required</p>
+          </div>
+          <img src="./images/hero.jpg" alt="hero" width="759" height="529" />
+        </div>
+      </section>
+      <section class="companies">
+        <div class="container">
+          <h2 class="companies__title">The preferred localization tool of 1500+ companies</h2>
+          <ul class="companies__wrapper">
+            <li class="comanies__item">
+              <img src="./images/company1.svg" alt="company1" />
+            </li>
+            <li class="comanies__item">
+              <img src="./images/company2.svg" alt="company2" />
+            </li>
+            <li class="comanies__item">
+              <img src="./images/company3.svg" alt="company3" />
+            </li>
+            <li class="comanies__item">
+              <img src="./images/company4.svg" alt="company4" />
+            </li>
+            <li class="comanies__item">
+              <img src="./images/company5.svg" alt="company5" />
+            </li>
+            <li class="comanies__item">
+              <img src="./images/company6.svg" alt="company6" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="container">
+          <h2 class="visually-hidden">Advantages</h2>
+          <ul class="advantages__list">
+            <li class="advantages__item">
+              <div class="advantages__info">
+                <h3 class="advantages__title">Control the localization process</h3>
+                <p class="advantages__description">
+                  Collaborate with your team in a single workspace. Add and assign tasks, track
+                  progress, and enjoy a seamless localization workflow where you know who is doing
+                  what and when.
+                </p>
+                <a class="advantages__link" href="#">Start now</a>
+              </div>
+              <img src="./images/advantage1.jpg" alt="advantage1" />
+            </li>
+            <li class="advantages__item">
+              <div class="advantages__info">
+                <h3 class="advantages__title">Shorten time to&nbsp;market</h3>
+                <p class="advantages__description">
+                  Localize your product in parallel with the development cycle. Use the Adobe XD,
+                  Figma, and Sketch plugins to start working on translations as soon as the product
+                  design is ready. No more idle waiting.
+                </p>
+                <a class="advantages__link" href="#">Start now</a>
+              </div>
+              <img src="./images/advantage2.jpg" alt="advantage2" />
+            </li>
+            <li class="advantages__item">
+              <div class="advantages__info">
+                <h3 class="advantages__title">Ensure quality</h3>
+                <p class="advantages__description">
+                  Use built-in tools — e.g. translation memory, machine translation, and QA checks —
+                  to enhance the quality and cohesion of translations. Add product screenshots for
+                  context and use the in-context editors for instant previews.
+                </p>
+                <a class="advantages__link" href="#">Start now</a>
+              </div>
+              <img src="./images/advantage3.jpg" alt="advantage3" />
+            </li>
+            <li class="advantages__item">
+              <div class="advantages__info">
+                <h3 class="advantages__title">Less work for developers</h3>
+                <p class="advantages__description">
+                  Eliminate the hassle of localization and let developers get back to their main
+                  tasks. Save hours with the powerful API, CLI, mobile SDKs, and integrations with
+                  GitHub, Bitbucket, JIRA, and more.
+                </p>
+                <a class="advantages__link" href="#">Start now</a>
+              </div>
+              <img src="./images/advantage4.jpg" alt="advantage4" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="subjects">
+        <div class="container container--narrow">
+          <h2 class="subjects__title">What can you localize with Lokalise?</h2>
+          <ul class="subjects__list">
+            <li class="subjects_item">
+              <img src="./images/subject1.svg" class="subjects__image" alt="subject1" />
+              <h3 class="subjects__subtitle">Web apps</h3>
+              <p class="subjects_descr">
+                Any kind of web apps — backend, frontend, single page, blogs — you name it.
+              </p>
+            </li>
+            <li class="subjects_item">
+              <img src="./images/subject2.svg" class="subjects__image" alt="subject2" />
+              <h3 class="subjects__subtitle">Mobile apps</h3>
+              <p class="subjects_descr">
+                Upload any mobile platform language files. Embed Lokalise iOS SDK or Lokalise
+                Android SDK if you prefer.
+              </p>
+            </li>
+            <li class="subjects_item">
+              <img src="./images/subject3.svg" class="subjects__image" alt="subject3" />
+              <h3 class="subjects__subtitle">Games</h3>
+              <p class="subjects_descr">
+                Our cloud software is trusted by many leading game developers around the world.
+              </p>
+            </li>
+            <li class="subjects_item">
+              <img src="./images/subject4.svg" class="subjects__image" alt="subject3" />
+              <h3 class="subjects__subtitle">Documents</h3>
+              <p class="subjects_descr">Upload your DOCX and static HTML files.</p>
+            </li>
+            <li class="subjects_item">
+              <img src="./images/subject5.svg" class="subjects__image" alt="subject3" />
+              <h3 class="subjects__subtitle">Marketing e-mails</h3>
+              <p class="subjects_descr">
+                Integrate with Salesforce Marketing Cloud (coming soon) or translate static e-mails.
+              </p>
+            </li>
+            <li class="subjects_item">
+              <img src="./images/subject6.svg" class="subjects__image" alt="subject3" />
+              <h3 class="subjects__subtitle">IoT</h3>
+              <p class="subjects_descr">We support most popular localization file formats.</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <footer></footer>
