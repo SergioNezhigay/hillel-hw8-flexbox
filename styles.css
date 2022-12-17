@@ -29,10 +29,27 @@ section {
   border: 0;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
 body {
   font-family: 'Graphik LC Web', sans-serif;
-  font-size: 144px;
+  font-size: 14px;
   line-height: 1.14;
   background-color: #ffffff;
   color: #000000;
+}
+
+logo__link {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.33;
 }
